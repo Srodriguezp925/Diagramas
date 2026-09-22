@@ -1,0 +1,29 @@
+%% Defence Gun de James Puckle, patente de 1718
+%% Esquema textual historico y educativo
+flowchart TB
+    subgraph ARMA[Conjunto del arma]
+        direction LR
+        S[Soporte de montaje] --> C[Cilindro giratorio]
+        C --> B[Camara alineada]
+        B --> K[Canon fijo]
+        T[Manivela o mecanismo de giro] --> C
+    end
+
+    subgraph CICLO[Ciclo simplificado]
+        direction LR
+        P[Preparar] --> L[Cargar una camara]
+        L --> A[Alinear con el canon]
+        A --> D[Disparar]
+        D --> R[Girar el cilindro]
+        R --> A
+    end
+
+    C -. contiene varias .-> B
+    S -. estabiliza .-> K
+
+    classDef metal fill:#d9dedb,stroke:#263238,color:#172126,stroke-width:2px;
+    classDef wood fill:#f0c98b,stroke:#7b4a21,color:#33200f,stroke-width:2px;
+    classDef action fill:#f7d8c8,stroke:#9b341f,color:#4a1c10,stroke-width:2px;
+    class S wood;
+    class C,B,K,T metal;
+    class P,L,A,D,R action;

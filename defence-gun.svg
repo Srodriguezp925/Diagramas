@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Esquema vectorial del Defence Gun de James Puckle</title>
+  <desc id="desc">Representacion esquematica de un arma de repeticion patentada en 1718, con canon, cilindro giratorio y soporte.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#9b341f"/>
+    </marker>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#eadfca" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="700" fill="#f7f1e5"/>
+  <rect x="28" y="28" width="1144" height="644" rx="14" fill="url(#grid)" stroke="#263238" stroke-width="3"/>
+  <text x="70" y="92" font-family="Georgia, serif" font-size="34" font-weight="bold" fill="#263238">DEFENCE GUN</text>
+  <text x="72" y="124" font-family="Arial, sans-serif" font-size="18" fill="#9b341f">Esquema historico basado en la patente de James Puckle, 1718</text>
+
+  <!-- canon y caja de cierre -->
+  <path d="M330 284 L760 284 L835 302 L835 350 L760 368 L330 368 Z" fill="#8b9291" stroke="#263238" stroke-width="5"/>
+  <path d="M760 284 L840 302 L840 350 L760 368 Z" fill="#65706f" stroke="#263238" stroke-width="5"/>
+  <rect x="300" y="294" width="48" height="64" rx="8" fill="#b5bcba" stroke="#263238" stroke-width="5"/>
+  <path d="M840 306 L930 306 L948 326 L930 346 L840 346" fill="none" stroke="#263238" stroke-width="5"/>
+  <text x="470" y="265" font-family="Arial, sans-serif" font-size="18" fill="#263238">cañon fijo</text>
+  <line x1="520" y1="270" x2="550" y2="287" stroke="#9b341f" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- cilindro giratorio -->
+  <ellipse cx="300" cy="326" rx="112" ry="104" fill="#c98d45" stroke="#263238" stroke-width="6"/>
+  <ellipse cx="300" cy="326" rx="39" ry="37" fill="#f7f1e5" stroke="#263238" stroke-width="5"/>
+  <g fill="#f7f1e5" stroke="#263238" stroke-width="4">
+    <ellipse cx="300" cy="244" rx="18" ry="27"/>
+    <ellipse cx="354" cy="267" rx="18" ry="27" transform="rotate(42 354 267)"/>
+    <ellipse cx="374" cy="326" rx="18" ry="27" transform="rotate(90 374 326)"/>
+    <ellipse cx="354" cy="385" rx="18" ry="27" transform="rotate(138 354 385)"/>
+    <ellipse cx="300" cy="408" rx="18" ry="27"/>
+    <ellipse cx="246" cy="385" rx="18" ry="27" transform="rotate(42 246 385)"/>
+    <ellipse cx="226" cy="326" rx="18" ry="27" transform="rotate(90 226 326)"/>
+    <ellipse cx="246" cy="267" rx="18" ry="27" transform="rotate(138 246 267)"/>
+  </g>
+  <path d="M300 208 A118 118 0 0 1 406 290" fill="none" stroke="#9b341f" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="148" y="493" font-family="Arial, sans-serif" font-size="18" fill="#263238">cilindro giratorio</text>
+  <line x1="254" y1="475" x2="286" y2="430" stroke="#9b341f" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- soporte y montaje -->
+  <rect x="420" y="368" width="62" height="112" fill="#65706f" stroke="#263238" stroke-width="5"/>
+  <path d="M450 480 L300 610 M450 480 L450 625 M450 480 L620 610" fill="none" stroke="#263238" stroke-width="12" stroke-linecap="round"/>
+  <path d="M330 610 H270 M450 625 H380 M620 610 H680" stroke="#263238" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="450" cy="402" r="16" fill="#c98d45" stroke="#263238" stroke-width="5"/>
+  <text x="715" y="570" font-family="Arial, sans-serif" font-size="18" fill="#263238">soporte de montaje</text>
+  <line x1="700" y1="550" x2="520" y2="478" stroke="#9b341f" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- referencias -->
+  <rect x="760" y="440" width="330" height="142" rx="8" fill="#fffaf0" stroke="#263238" stroke-width="3"/>
+  <text x="790" y="474" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#263238">Lectura del esquema</text>
+  <circle cx="790" cy="505" r="7" fill="#c98d45"/>
+  <text x="810" y="511" font-family="Arial, sans-serif" font-size="16" fill="#263238">camaras del cilindro</text>
+  <circle cx="790" cy="535" r="7" fill="#8b9291"/>
+  <text x="810" y="541" font-family="Arial, sans-serif" font-size="16" fill="#263238">canon y cierre</text>
+  <circle cx="790" cy="565" r="7" fill="#9b341f"/>
+  <text x="810" y="571" font-family="Arial, sans-serif" font-size="16" fill="#263238">direccion de giro</text>
+
+  <text x="70" y="640" font-family="Arial, sans-serif" font-size="15" fill="#52605e">Representacion vectorial educativa. No es un plano de fabricacion.</text>
+</svg>
