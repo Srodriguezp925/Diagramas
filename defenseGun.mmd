@@ -1,0 +1,58 @@
+%% Puckle Gun, James Puckle, patente de 1718
+%% Grabado técnico histórico: cañón largo, tambor giratorio, manivela, soporte pivotante y trípode de madera
+flowchart LR
+    subgraph BASE[TRÍPODE DE MADERA]
+        direction TB
+        P1[Pata de madera]
+        P2[Pata de madera]
+        P3[Pata de madera]
+        CUNA[Base central]
+    end
+
+    subgraph SOPORTE[SOPORTE PIVOTANTE]
+        direction TB
+        E[Eje de giro]
+        S[Soporte en horquilla]
+    end
+
+    subgraph TAMBOR[TAMBOR GIRATORIO]
+        direction LR
+        C1((1))
+        C2((2))
+        C3((3))
+        C4((4))
+        C5((5))
+        T[Tambor con varias cámaras]
+    end
+
+    M[Manivela de giro]
+    B[Cañón largo]
+    U[Tirador]
+    A[Ángulo de disparo]
+
+    P1 --> CUNA
+    P2 --> CUNA
+    P3 --> CUNA
+    CUNA --> E --> S --> T
+    M --> T
+    T --> B
+    U --> S
+    A --> B
+
+    C1 --- T
+    C2 --- T
+    C3 --- T
+    C4 --- T
+    C5 --- T
+
+    classDef wood fill:#c99b61,stroke:#694322,color:#34281e,stroke-width:3px;
+    classDef metal fill:#d8d0bf,stroke:#493728,color:#34281e,stroke-width:3px;
+    classDef action fill:#f2e8d5,stroke:#77583a,color:#34281e,stroke-width:2px;
+    classDef detail fill:#efe2c4,stroke:#493728,color:#34281e,stroke-width:2px;
+
+    class P1,P2,P3,CUNA wood;
+    class E,S,T,C1,C2,C3,C4,C5,B,M metal;
+    class U,A action;
+    style BASE fill:#f7f0e2,stroke:#77583a,stroke-width:2px;
+    style SOPORTE fill:#f7f0e2,stroke:#77583a,stroke-width:2px;
+    style TAMBOR fill:#f7f0e2,stroke:#493728,stroke-width:2px;
