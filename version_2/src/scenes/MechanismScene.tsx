@@ -5,11 +5,7 @@ export const MechanismScene = () => {
   const frame = useCurrentFrame();
 
   return (
-    <SceneFrame
-      number="03"
-      section="EL CILINDRO GIRATORIO"
-      durationInFrames={473}
-    >
+    <SceneFrame>
       <div
         style={{
           position: "absolute",

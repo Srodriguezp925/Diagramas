@@ -5,11 +5,7 @@ export const ClosingScene = () => {
   const frame = useCurrentFrame();
 
   return (
-    <SceneFrame
-      number="05"
-      section="CIERRE"
-      durationInFrames={237}
-    >
+    <SceneFrame>
       <div
         style={{
           position: "absolute",

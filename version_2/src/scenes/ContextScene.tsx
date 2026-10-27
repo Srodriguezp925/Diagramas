@@ -23,11 +23,7 @@ export const ContextScene = () => {
   const frame = useCurrentFrame();
 
   return (
-    <SceneFrame
-      number="04"
-      section="PATENTE Y CONTEXTO"
-      durationInFrames={474}
-    >
+    <SceneFrame>
       <div
         style={{
           position: "absolute",

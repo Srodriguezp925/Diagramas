@@ -5,11 +5,7 @@ export const OpeningScene = () => {
   const frame = useCurrentFrame();
 
   return (
-    <SceneFrame
-      number="01"
-      section="UNA PREGUNTA"
-      durationInFrames={184}
-    >
+    <SceneFrame>
       <div
         style={{
           position: "absolute",

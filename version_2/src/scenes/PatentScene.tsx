@@ -5,11 +5,7 @@ export const PatentScene = () => {
   const frame = useCurrentFrame();
 
   return (
-    <SceneFrame
-      number="02"
-      section="LA PATENTE"
-      durationInFrames={394}
-    >
+    <SceneFrame>
       <div
         style={{
           position: "absolute",
