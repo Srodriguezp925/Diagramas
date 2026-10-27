@@ -2,11 +2,23 @@
 
 Proyecto histórico y educativo dedicado a estudiar visualmente la **Defence Gun**, un arma de repetición patentada por **James Puckle en 1718**. El repositorio reúne distintas representaciones del diseño en formatos SVG, Excalidraw y Mermaid, además de un proyecto de vídeo explicativo.
 
+## Imagen histórica de la patente
+
+La siguiente ilustración histórica muestra el diseño atribuido a la patente de James Puckle y las variantes de cilindros para distintos tipos de munición. La imagen está alojada en Wikimedia Commons y se identifica como de dominio público en Estados Unidos.
+
+<p align="center">
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Puckle_gun_advertisement.jpg" alt="Ilustración histórica del diseño Defence Gun de James Puckle, con variantes del cilindro" width="780">
+</p>
+
+Fuente y datos de la imagen: [Wikimedia Commons — Puckle gun advertisement.jpg](https://commons.wikimedia.org/wiki/File:Puckle_gun_advertisement.jpg).
+
+## Diagrama del proyecto
+
+Esta es la representación esquemática desarrollada en este repositorio; no es una reproducción exacta del documento original.
+
 <p align="center">
   <img src="defenseGun.svg" alt="Representación esquemática de la Defence Gun de James Puckle, patente de 1718" width="780">
 </p>
-
-<p align="center"><em>Representación gráfica del proyecto; no es una reproducción exacta del documento original de la patente.</em></p>
 
 ## Objetivo del proyecto
 
@@ -84,7 +96,7 @@ Diagramas/
 └── version_2/
 ```
 
-La estructura puede ampliarse a medida que se incorporen nuevos materiales o versiones. No se deben eliminar carpetas ni archivos existentes sin una solicitud explícita.
+La estructura puede ampliarse a medida que se incorporen nuevos materiales o versiones. No se deben eliminar carpetas ni archivos existentes.
 
 ## Herramientas utilizadas
 
@@ -96,8 +108,8 @@ La estructura puede ampliarse a medida que se incorporen nuevos materiales o ver
 
 ## Alcance y precisión
 
-Las ilustraciones simplifican algunos detalles para mejorar la lectura y no sustituyen el documento histórico original. La imagen que aparece al inicio es la representación gráfica incluida en este repositorio, no una fotografía ni un facsímil de la patente original.
+Las ilustraciones simplifican algunos detalles para mejorar la lectura y no sustituyen el documento histórico original. La ilustración externa se enlaza desde Wikimedia Commons; la representación SVG es parte de este repositorio.
 
 ## Créditos y uso
 
-Proyecto académico de documentación visual sobre la patente de James Puckle de 1718. Si se añade una imagen histórica externa, debe incluirse su fuente y la información de licencia correspondiente.
+Proyecto académico de documentación visual sobre la patente de James Puckle de 1718. La ilustración histórica se atribuye a Wikimedia Commons; consulta su [página de archivo](https://commons.wikimedia.org/wiki/File:Puckle_gun_advertisement.jpg) para revisar sus metadatos y condiciones de reutilización.
