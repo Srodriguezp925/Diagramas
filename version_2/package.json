@@ -1,0 +1,22 @@
+{
+  "name": "puckle-vertical-video-version-2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Segunda versión del vídeo vertical sobre la Defence Gun de James Puckle.",
+  "scripts": {
+    "dev": "remotion studio src/index.ts --no-open",
+    "render": "remotion render src/index.ts PuckleVerticalV2 video_version_2.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.533",
+    "@remotion/media": "4.0.533",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.533"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}
